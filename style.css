@@ -1,0 +1,200 @@
+body{
+    background-image:url(sahara\ deserta.jpg);
+    width: 100%;
+    height: 9cm;
+}
+.i1{
+    height: 40px;
+    width: 40px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.p1{
+    display: inline-block;
+    margin: 40px;
+}
+.container1{
+    float: right;
+    margin-right: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.circle{
+    height:20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: darkgrey;
+    padding: 10px;
+}
+.container2{
+    width: 300px;
+    height: 300px;
+    margin:100px;
+}
+.container3{
+    width:500px;
+    height: 500px;
+    display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   align-items: flex-start;
+    position: absolute;
+    top: 100px;
+    right: 80px;
+    border: 0px solid black;
+}
+.i2{
+    background-image: url(S11aa.jpg);
+    width: 200px;
+    height: 200px;
+   text-align: center;
+   border-radius: 10px;
+   
+ }
+ .a0:hover {
+     margin-top: -10px;
+ }
+ .a1:hover {
+    margin-top: -10px;
+}
+.a2:hover {
+    margin-top: -10px;
+}
+.a3:hover {
+    margin-top: -10px;
+}
+.i3{
+    background-image: url(pic-2a.png);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+.i4{
+    background-image: url(pic-3a.png);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+.i5{
+    background-image: url(pic-4a.png);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+p{
+    color: white;
+    font-size: small;
+}
+h1{
+    font-size: 70px;
+    color: white;
+}
+h4{
+    color: white;
+}
+h3{
+    text-align: center;
+    padding-top: 20px;
+    height: 40px;
+    width: 240px;
+    border-radius: 10% / 50%;;
+    background-color: white;
+}
+
+/*......................................*/
+
+@media (max-width:500px) {
+    .container1{
+       margin-right: 5px;
+    }
+    .container2{
+        margin: 70px;
+    }
+    .container3{
+         width:auto ;
+         height:auto;
+        flex-direction: column;
+        position: relative;
+        left: 100px;
+        top: 20px;
+    }
+    
+}
+/*......................................*/
+
+@media (min-width:501px) and (max-width:856px) {
+    .container2{
+       width: 600px;
+    }
+    body{
+        background-image:url(sahara\ desert.jpg);
+        
+    }
+     .container3{
+          width:100%;
+          height:100%;
+         left:0px;
+         bottom: 0px;
+         position: absolute;
+         top: 400px;
+     }
+     .i2{
+        background-image:url(S11aaa.jpg);
+        width: 450px;
+     }
+     .i3{
+        background-image:url(pic-2.png);
+        width: 450px;
+     }
+     .i4{
+        background-image:url(pic-3.png);
+        width: 450px;
+     }
+     .i5{
+        background-image:url(pic-4.png);
+        width: 450px;
+     }
+     
+}
+/*......................................*/
+
+@media (min-width:857px) and (max-width:1100px) {
+    .container2{
+        width: 600px;
+     }
+     body{
+         background-image:url(sahara\ desert.jpg);
+         width: auto;
+         height: auto;
+     }
+      .container3{
+           width:100%;
+           height:100%;
+          left:0px;
+          bottom: 0px;
+          position: absolute;
+          top: 450px;
+      }
+      .i2{
+         background-image:url(S11aaa.jpg);
+         width: 700px;
+      }
+      .i3{
+         background-image:url(pic-2.png);
+         width: 700px;
+      }
+      .i4{
+         background-image:url(pic-3.png);
+         width: 700px;
+      }
+      .i5{
+         background-image:url(pic-4.png);
+         width: 700px;
+      }
+
+}
